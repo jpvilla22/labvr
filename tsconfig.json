@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,    
+    "target": "es2015", // esto es requerido por WebXR, minimo es es2015
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    // Needed as per Webpack TS config (See https://webpack.js.org/configuration/configuration-languages/#typescript)
+    "module": "CommonJS", 
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+}

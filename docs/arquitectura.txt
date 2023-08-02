@@ -1,0 +1,53 @@
+
+
+
+SceneManager:
+  se ocupa de cargar el/los GLBs y hacer cualquier post procesamiento necesario (como ocultar los highlight objects)
+
+GameDirector:
+
+  se encargar de controlar la logica general del juego, monitorea las tareas y su cumplimiento
+  habilita nuevas etapas
+
+HandController:
+  representa a un controlador . Deberian existir 2 instancias (izq y der) que se pueden crear desde el comienzo de la app
+  aun cuando los touchcontrollers no se hayan conectado.
+  Se deberia poder atarle eventListeners independientemente de si los controles fueron conectados.
+  
+  se ocupa de representar los controlers visualmente en 3D, si se aprieta un boton los puede resaltar
+
+  escucha los eventos connect/disconnect de WebXrManager. 
+
+  monitorea los botones y ejes del gamepad, delega la tarea en un XRGamepadMonitor y pasa eventos hacia afuera como BUTTON_DOWN
+
+  monitorea si el rayo debe marcar a un objeto seleccionable (activa/desactiva los highlights)
+  
+  monitorea si se esta apuntando a algun lugar del piso y se debe mover el circulo de teleportacion o si se debe ejecutar la teleportacion
+
+  puede tener un objeto "agarrado" y guarda variables de estado necesarias para volverlo eventualmente a su lugar
+
+  puede soltar un objeto sobre ciertos targets
+ 
+  los objetos "agarrables" se puede tomar a distancia (si previamente los ilumina el rayo) o si el controlador esta a distancia de agarre y 
+  se presiona el boton grip
+
+  genera eventos de alto nivel como
+    "se agarro un tubo de ensayo"
+    "se solto un plato de petri"
+    "se abrio la incubadora"
+  que puede usar el GameDirector
+
+
+
+TargetsManager:
+ es un objeto al que se le puede consultar cuales son los targets posible para soltar cierto objeto
+ en cierta etapa del juego
+
+GrabbableObject:
+  podria encapsular metodos como
+  
+  setHighlight(value:boolean) y lidear con el cambio de color de material en el objeto interno del grupo que corresponda.
+  
+  moveTo(obj:Object3D) avanza a una velocidad maxima hacia el objeto
+
+  isAtGrabbingDistance(worldPos:Vector3D) me dice si cierto punto en coord de mundo esta a una distancia de agarre

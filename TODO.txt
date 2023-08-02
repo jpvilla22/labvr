@@ -1,0 +1,17 @@
+
+
+- Ajustes de material de placa de petri:
+
+    color:gris 135
+    roughness:0.25
+    opacity: 0.25
+    metalness:0.1
+
+- PlateStove: aun se ven los hitSurface de los botones
+- StirringStove: El display deberia mostrar una temperatura inicial 18 o 37
+
+- la cubeta deberia mostrar liquido interior cuando se llena
+- los tubos de ensayo deberian tener liquido adentro
+- falta actualizar los tips por la nueva version que esta en temp/new tips/
+
+- Quizás cambiar uso de boton de joystick por boton A para no usar tantos botones diferentes

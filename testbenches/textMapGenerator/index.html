@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Testbench</title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        background-color: #fff;
+      }
+
+      canvas {
+        display: block;
+      }
+
+      #container3D {
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      @font-face {
+        font-family: 'SevenSegments';
+        src: url('/public/fonts/SevenSegments.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'CaveatBold';
+        src: url('/public/fonts/Caveat-Bold.ttf') format('truetype');
+      }
+
+      #fontsGallery {
+        visibility: hidden;
+
+        position: absolute;
+        bottom: 0;
+      }
+
+      #fontsGallery p {
+        font-size: 300%;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container3D"></div>
+    <div id="fontsGallery">
+      <p style="font-family: CaveatBold">1234567890</p>
+      <p style="font-family: SevenSegments">1234567890</p>
+    </div>
+    <canvas id="logger" style="visibility: hidden"></canvas>
+  </body>
+</html>

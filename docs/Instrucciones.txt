@@ -1,0 +1,40 @@
+Sobre los mandos:
+----------------
+
+Para la simulación del laboratorio de microbiología, los mandos izquierdos y derechos son totalmente simétricos y análogos, lo que significa que cualquier acción que se realice con una mano se puede realizar también con la otra.
+
+A continuación definimos algunos nombres para los botones de los mandos:
+
+  - Gatillo (o Trigger): se presiona con el dedo índice, y simula ser un gatillo. 
+  - Grip: se presiona normalmente con el dedo mayor. Es el botón que está al costado del mando.
+  - Botón de joystick: se presiona empujando hacia abajo el joystick como cualquier otro botón. No confundir con la acción de mover la palanca.
+  - Menu: botón plano que se encuentra en la mano izquierda
+  - Oculus: botón plano de la mano derecha.
+
+Para agarrar cualquier objeto (que pueda ser agarrado) hay que primero señalarlo, ver que se pinta de verde, y luego mantener apretado el botón de grip. El objeto volará hasta la mano, hasta que se suelte el botón grip.
+
+En líneas generales, cada vez que la/el estudiante realiza una acción el mando correspondiente vibra, de manera tal que se recibe un feedback sobre su accionar.
+
+
+Instrucciones a seguir para la simulación:
+---------------------------------
+
+Se inicia la simulación entrando al modo VR, gatillando el botón "ENTER VR". La escena preseleccionada es la de "Preparación". Aquí hay un erlenmeyer con medio de cultivo que tiene marcado "cultivo" en el vidrio. Dentro de la estufa de batido se encuentra el erlenmeyer con el precultivo. Para abrir la estufa hay que señalar la manija de la estufa (que se pinta de verde) y gatillar o apretar el grip. 
+
+Para preparar el cultivo hay entonces que traspasar el contenido del precultivo al medio utilizando la pipeta p1000. Para ello hay que agarrar la pipeta y acercarla a la caja de puntas p1000 (que también se puede agarrar). Acercando la punta de la pipeta a la caja y con el botón A o X (dependiendo la mano) se coloca entonces la punta a la pipeta. Si se acerca la pipeta al cesto de desechos y se presiona A o X se suelta la punta.
+
+Para sustraer o soltar líquido utilizando la pipeta hay que acercar la punta a la boca del erlenmeyer y presionar el botón de joystick. Además del feedback vibratorio se observa que el botón de la pipeta se elevó.
+
+Una vez realizado el traspaso, se pueden guardar ambos erlenmeyers en la estufa. Para pasar a la escena de dilución hay que señalar el reloj y gatillar. Esto deja pasar una hora (Nota: se observó durante la última reunión que la primera muestra se realiza apenas se hace el traspaso, es decir, en la hora cero. Queda pendiente arreglar esto).
+
+Para utilizar el espectofotómetro basta con llenar una cubeta con cultivo, colocarla en el espectofotómetro y presionar el botón correspondiente con el gatillo. Se escucha entonces un beep y se actualiza la pantalla de la máquina.
+
+En la etapa de dilución los tubos de ensayo ya están cargados con 9ml de medio. Para hacer la dilución basta con pasar el contenido del cultivo a un tubo, batirlo acercando la base del tubo al vortex, y luego continuar con el siguiente tubo. 
+
+Una vez realizadas las diluciones, con la pipeta se puede colocar la muestra en la placa de petri abierta. Para abrirla basta con señalarla para que se ilumine de verde y gatillar. Si se iluminan todas las placas es porque se está seleccionando al conjunto entero. Esto es útil para apilar y agarrar todas las placas juntas.
+
+Al contenido de cada placa de petri se lo puede esparcir con la espátula de metal. Basta con acercar la espátula al plato, se sentirá una única vibración que luego no se repetirá porque el contenido ya está esparcido.
+
+Finalizado el muestreo, se deben colocar las placas en el horno seleccionando el conjunto entero (ver que se iluminan todas las placas) y presionando el grip. Colocar el erlenmeyer también en su estufa. Para pasar a la siguiente hora hay que gatillar el reloj.
+
+Para la escena final se muestran los tres conjuntos de placas de petri en la mesa, y una bandeja en frente de cada uno. La bandeja sirve para definir qué placa queremos seleccionar. Cada vez que se elije una placa se actualiza el gráfico en pantalla con los valores correspondientes a la placa. 
